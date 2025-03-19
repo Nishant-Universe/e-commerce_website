@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const sourseSchema=new mongoose.Schema({
+const courseSchema=new mongoose.Schema({
     title:{
         type :String,
         require:true,
@@ -12,9 +12,17 @@ const sourseSchema=new mongoose.Schema({
         type:Number,
         required:true,
     },
-    image:{type:String,
-        required :true,
+    image:
+    {public_id:{
+        type:String,
+        required:true
+
+    },
+    url:{
+        type:String,
+        required:true
     }
-})
+    }
+});
 
 export const course=mongoose.model("course",courseSchema);
