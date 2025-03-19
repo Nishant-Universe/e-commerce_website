@@ -1,0 +1,30 @@
+{
+  "name": "course-app",
+  "version": "1.0.0",
+  "description": "full stack course selling app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishant-Universe/e-commerce_website.git"
+  },
+  "keywords": [
+    "course-app"
+  ],
+  "author": "Nishant Gola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishant-Universe/e-commerce_website/issues"
+  },
+  "homepage": "https://github.com/Nishant-Universe/e-commerce_website#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
