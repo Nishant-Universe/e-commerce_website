@@ -53,3 +53,14 @@ export const createCourse=async(req,res)=>{
   }
 
 };
+
+export const updateCourse=async(req,res)=>{
+  const {courseId}=req.params;
+  const {title,description,price,image}=req.body;
+  try{
+  }catch(error){
+    console.log("error in course update",error);
+    
+
+  }
+}
